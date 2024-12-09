@@ -88,3 +88,61 @@ http://localhost:3000
 ```
 
 ![alt text](image-1.png)
+
+## Como Criar um Botão Interativo em React
+
+Este guia explica como adicionar um botão interativo ao seu aplicativo React.
+
+---
+
+## Passos
+
+### 1. Criar o Componente do Botão
+Adicione o seguinte código no arquivo `App.js` para criar o botão interativo:
+
+```jsx
+import React, { useState } from 'react';
+import './App.css'; // Importa o CSS para estilos
+
+function App() {
+  const [buttonText, setButtonText] = useState('Clique aqui!');
+
+  const handleClick = () => {
+    alert('Botão clicado!');
+    setButtonText('Clicado!');
+  };
+
+  return (
+    <div className="App">
+      <button onClick={handleClick} className="button">
+        {buttonText}
+      </button>
+    </div>
+  );
+}
+
+export default App;
+```
+
+## 2. Criar o Arquivo de Estilos
+Crie um arquivo chamado App.css no mesmo diretório e adicione os estilos do botão:
+
+´´´css
+Copiar código
+/* App.css */
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+´´´
