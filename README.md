@@ -128,8 +128,6 @@ export default App;
 Crie um arquivo chamado App.css no mesmo diretório e adicione os estilos do botão:
 
 ```css
-Copiar código
-/* App.css */
 .button {
   padding: 10px 20px;
   font-size: 16px;
