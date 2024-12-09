@@ -127,7 +127,7 @@ export default App;
 ## 2. Criar o Arquivo de Estilos
 Crie um arquivo chamado App.css no mesmo diretório e adicione os estilos do botão:
 
-´´´css
+```css
 Copiar código
 /* App.css */
 .button {
