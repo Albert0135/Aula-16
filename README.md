@@ -87,8 +87,6 @@ npm start
 http://localhost:3000
 ```
 
-![alt text](image-1.png)
-
 ## Como Criar um Botão Interativo em React
 
 Este guia explica como adicionar um botão interativo ao seu aplicativo React.
@@ -144,3 +142,4 @@ Crie um arquivo chamado App.css no mesmo diretório e adicione os estilos do bot
   background-color: #0056b3;
 }
 ```
+![image](https://github.com/user-attachments/assets/5b4cb297-bab9-415c-bbe4-8cfe846e3bbc)
